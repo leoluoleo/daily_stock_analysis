@@ -1023,7 +1023,7 @@ class NotificationService:
         
         return "\n".join(lines)
 
-      def send_file_to_wechat(self, file_path: str) -> bool:
+    def send_file_to_wechat(self, file_path: str) -> bool:
               """通过企业微信机器人发送文件"""
               try:
                   # 获取 Webhook 地址
